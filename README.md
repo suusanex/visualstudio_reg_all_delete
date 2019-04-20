@@ -1,6 +1,12 @@
 # visualstudio_reg_all_delete
 Delete all related registry keys for the purpose of completely uninstalling VisualStudio.
 
+※VisualStudio 2017以降では、同じ用途のツールがVisualStudioに含まれているらしい。本プロジェクトのツールを使うよりも、先に次のツールを試したほうが良い。
+
+```
+%programfiles(x86)%\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe
+```
+
 次のプロジェクトを使用してアンインストールを実施した。
 
 https://github.com/Microsoft/VisualStudioUninstaller
